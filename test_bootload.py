@@ -9,8 +9,17 @@ import time
 nRF_ser = None
 uart_ser = None
 
-nRF_port="COM27"
-binary_image="C:/Users/fmaksimo/scum/austin_repo/scum-test-code/scm_v3c/applications/freq_sweep_rx_tx/Objects/freq_sweep_rx_tx.bin"
+nRF_port="COM6"
+# it is my sync_calibration code
+# binary_image="D:/Work/atomic/lighthouse_position/reference/scum-test-code/scm_v3c/applications/synclight_carlibration/Objects/synclight_calibration.bin"
+# ble-tx
+binary_image="D:\Work/atomic/lighthouse_position/develop_sync_clock/dev/tryuan99_scum-test-code/scum-test-code/scm_v3c/applications/ble_tx/Objects/ble_tx.bin"
+# 获得合适的BLE频率
+# binary_image="D:\Work/atomic/lighthouse_position/develop_sync_clock/dev/tryuan99_scum-test-code/scum-test-code/scm_v3c/applications/ble_freq_sweep/Objects/ble_freq_sweep.bin"
+
+# binary_image="D:\Work/atomic/lighthouse_position/develop_sync_clock/dev/tryuan99_scum-test-code/scum-test-code/scm_v3c_BLE/code.bin"
+# binary_image="D:/Work/atomic/lighthouse_position/reference/scum-test-code/scm_v3c/applications/hello_world/Objects/hello_world.bin"
+# binary_image="C:/Users/fmaksimo/scum/austin_repo/scum-test-code/scm_v3c/applications/freq_sweep_rx_tx/Objects/freq_sweep_rx_tx.bin"
 #binary_image="C:/Users/fmaksimo/scum/scum-test-code/scm_v3c/applications/ble_freq_sweep/Objects/ble_freq_sweep.bin"
 #binary_image="C:/Users/fmaksimo/scum/scum-hornet/scm_v3c/applications/ble_freq_sweep/Objects/ble_freq_sweep.bin"
 boot_mode='3wb'
